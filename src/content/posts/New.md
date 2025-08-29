@@ -59,17 +59,13 @@ npm install -g pnpm      # 如果未安装 pnpm
 pnpm install
 ```
 
-3. **配置站点信息**
-
-* 编辑 `src/config.ts`，修改博客名称、主题色、横幅、社交链接等
-
-4. **构建生产站点**
+3. **构建生产站点**
 
 ```bash
 pnpm build
 ```
 
-5. **本地预览（可选）**
+4. **本地预览（可选）**
 
 ```bash
 pnpm preview
