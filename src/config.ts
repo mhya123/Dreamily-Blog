@@ -190,21 +190,22 @@ export const navBarConfig: NavBarConfig = {
 			name: "关于",
 			url: "/content/",
 			icon: "material-symbols:info",
-			children: [LinkPreset.About, LinkPreset.Friends],
 		},
 		{
 			name: "其他",
-			url: "#",
+			url: "/links/",
 			icon: "material-symbols:more-horiz",
 			children: [
 				{
 					name: "状态检测",
-					url: "https://status.hvhbbs.cc",
+					url: "https://status.hvhbbs.cc/",
+					external: true,
 					icon: "mdi:server-network",
 				},
 				{
 					name: "论坛",
-					url: "https://www.hvhbbs.cc",
+					url: "https://www.hvhbbs.cc/",
+					external: true,
 					icon: "mdi:message-text",
 				},
 			],
